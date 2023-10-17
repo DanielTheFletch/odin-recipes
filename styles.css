@@ -47,3 +47,9 @@ html {
     list-style: none;
     padding: 1.5rem 0;
 }
+
+.return-link {
+    display: flex;
+    justify-content: center;
+    margin: 2.75rem auto;
+}
