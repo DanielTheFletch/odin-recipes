@@ -1,0 +1,49 @@
+/* Daniel Fletcher */
+/* The Odin Project [Foundations] */
+/* Project: Recipes */
+
+
+/* styles.css */
+/* Contains stylings for recipe pages */
+
+
+/* General properties */
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Links */
+.index-link {
+    background-color: rgb(16, 201, 145);
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 1.125em 1.25em;
+    text-decoration: none;
+}
+
+.index-link:hover {
+    background-color: rgb(6, 97, 70);
+    cursor: pointer;
+}
+
+.list-of-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    list-style: none;
+    padding: 1.5rem 0;
+}
