@@ -15,8 +15,10 @@ html {
 
 
 /* General properties */
-body {
-    margin: 0;
+blockquote {
+    border-left: 3px solid black;
+    font-style: italic;
+    padding-left: 0.125rem;
 }
 
 h1 {
@@ -31,11 +33,6 @@ h3 {
     margin-bottom: 2.5rem;
     padding-bottom: 1.125rem;
     text-align: center;
-}
-
-.recipe-title {
-    font-size: 3.5rem;
-    margin-bottom: 1.125rem;
 }
 
 
@@ -64,8 +61,26 @@ h3 {
     padding: 1.5rem 0;
 }
 
-.return-link {
+.return-link-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 2.75rem auto;
+}
+
+
+/* Recipe page content */
+.recipe-heading {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.recipe-section {
+    margin-bottom: 2.5rem;
+    margin-right: clamp(10%, 50%, 52.5%);
+}
+
+.recipe-title {
+    font-size: 3.5rem;
+    margin-bottom: 1.125rem;
+    text-align: start;
 }
