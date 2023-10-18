@@ -61,10 +61,26 @@ h3 {
     padding: 1.5rem 0;
 }
 
+.return-link {
+    background-color: rgb(16, 201, 145);
+    color: white;
+    font-size: 1.025rem;
+    font-weight: bold;
+    padding: 1.125em 1.25em;
+    text-decoration: none;
+}
+
+.return-link:hover {
+    background-color: rgb(6, 97, 70);
+    cursor: pointer;
+}
+
 .return-link-wrapper {
     display: flex;
-    justify-content: flex-start;
-    margin: 2.75rem auto;
+    justify-content: center;
+    margin-bottom: 1.125rem;
+    margin-right: clamp(10%, 50%, 52.5%);
+    margin-top: 2.75rem;
 }
 
 
