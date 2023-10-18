@@ -39,6 +39,14 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0;
+    text-align: center;
+}
+
 
 /* Links */
 .link {
@@ -89,6 +97,24 @@ h1 {
     margin-bottom: 1.125rem;
     margin-right: min(15%, 360px);
     margin-top: 2.75rem;
+}
+
+
+/* Index page content */
+.citation {
+    color: var(--color-dogwood);
+}
+
+.citation:hover {
+    color: var(--color-light);
+}
+
+.main-title {
+    background-color: var(--color-quartz);
+    border: 15px groove black;
+    color: white;
+    margin-bottom: 5rem;
+    text-shadow: 2px 2px 2.75px black;
 }
 
 
