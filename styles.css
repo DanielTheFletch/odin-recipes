@@ -7,8 +7,18 @@
 /* Contains stylings for recipe pages */
 
 
-/* Font and box sizing */
+/* Color scheme */
+:root {
+    --color-mint: #10C991;
+    --color-quartz: #9A8C98;
+    --color-dogwood: #C9ADA7;
+    --color-light: #F2E9E4; 
+}
+
+
+/* Global properties */
 html {
+    background-color: var(--color-light);
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -30,11 +40,11 @@ h1 {
 
 /* Links */
 .link {
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 2.25px var(--color-quartz);
 }
 
 .index-link {
-    background-color: rgb(16, 201, 145);
+    background-color: var(--color-mint);
     color: white;
     font-size: 1.75rem;
     font-weight: bold;
@@ -44,7 +54,7 @@ h1 {
 }
 
 .index-link:hover {
-    background-color: rgb(6, 97, 70);
+    background-color: var(--color-dogwood);
     cursor: pointer;
 }
 
@@ -58,7 +68,7 @@ h1 {
 }
 
 .return-link {
-    background-color: rgb(16, 201, 145);
+    background-color: var(--color-mint);
     color: white;
     font-size: 1.025rem;
     font-weight: bold;
@@ -67,7 +77,7 @@ h1 {
 }
 
 .return-link:hover {
-    background-color: rgb(6, 97, 70);
+    background-color: var(--color-dogwood);
     cursor: pointer;
 }
 
@@ -87,8 +97,8 @@ h1 {
 }
 
 .recipe-image {
-    border: 3px solid black;
-    box-shadow: 3px 3px 10px black;
+    background-color: white;
+    border: 7.75px groove var(--color-quartz);
     margin-bottom: 0.125rem;
 }
 
@@ -102,10 +112,13 @@ h1 {
     font-size: 2.125rem;
     margin-bottom: 1.125rem;
     padding-bottom: 0.25rem;
+    text-shadow: 2.5px 2.5px 3.25px black;
 }
 
 .title-section {
+    background-color: var(--color-mint);
     border: 5px groove black;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 7.5px var(--color-quartz);
+    color: white;
     text-align: center;
 }
