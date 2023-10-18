@@ -11,6 +11,7 @@
   <head>
     <!-- Link Google Fonts and custom CSS -->
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -22,34 +23,39 @@
   </head>
 
   <body>
-    <h1 class="recipe-title">Sunny Fried Wild Greens</h1>
-    <img  alt="Sunny Fried Wild Greens" src="../images/greens.png"
-          height="500" width="500">
-    <p>
-      Thinking about traveling to The Depths? This light but nutritious meal will restore hearts
-      and cure some hearts from gloom damage. Any adventurer expecting to come into contact with
-      the gloom brought about by The Upheaval should consider carrying this meal for safety.
-    </p>
-    <p>
-      As Described in Hyrule:
+    <div class="recipe-section title-section">
+      <h1 class="recipe-title">Sunny Fried Wild Greens</h1>
+      <img  alt="Sunny Fried Wild Greens" class="recipe-image" src="../images/greens.png"
+            height="256" width="256">
+    </div>
+
+    <div class="recipe-section">
+      <p class="recipe-heading">At a glance:</p>
+      <p>
+        Thinking about traveling to The Depths? This light but nutritious meal will restore hearts
+        and cure some hearts from gloom damage. Any adventurer expecting to come into contact with
+        the gloom brought about by The Upheaval should consider carrying this meal for safety.
+      </p>
+    </div>
+
+    <div class="recipe-section">
+      <p class="recipe-heading">As described in Hyrule:</p>
       <blockquote>
         "Restores hearts damaged by gloom. A basic vegetable dish made by sauteing fresh wild plants."
       </blockquote>
-    </p>
-    <p>Minimum required ingredients:</p>
-    <ul>
-      <li>Sundelion (x1 or more)</li>
-      <li>
-        Optionally add any of the following:
-        <ul>
-          <li>Sun pumpkin</li>
-          <li>Hyrule herb</li>
-          <li>Korok frond</li>
-        </ul>
-      </li>
-    </ul>
-    <div class="return-link">
-      <a class="index-link" href="../index.html">Back to Recipes</a>
+    </div>
+
+    <div class="recipe-section">
+      <p class="recipe-heading">Minimum required ingredients:</p>
+      <ul class="list-ingredients">
+        <li>Sundelion (x1 or more)</li>
+        <li>Sun pumpkin (optional)</li>
+        <li>Hyrule herb (optional)</li>
+        <li>Korok frond (optional)</li>
+      </ul>
+    </div>
+    <div class="return-link-wrapper">
+      <a class="link return-link" href="../index.html"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back to Recipes</a>
     </div>
   </body>
 </html>
