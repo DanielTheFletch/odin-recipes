@@ -34,13 +34,13 @@ blockquote {
 }
 
 h1 {
-    font-size: clamp(1.5rem, 3.75rem, 4.5rem);
+    font-size: clamp(36px, 3.75rem, 128px);
     margin-bottom: 0;
     text-align: center;
 }
 
 h3 {
-    font-size: clamp(0.95rem, 1.75rem, 2.25rem);
+    font-size: clamp(18px, 1.75rem, 64px);
     font-style: italic;
     font-weight: normal;
     margin-top: 0;
@@ -56,7 +56,7 @@ h3 {
 .index-link {
     background-color: var(--color-mint);
     color: white;
-    font-size: clamp(0.125rem, 1.25rem, 1.75rem);
+    font-size: clamp(16px, 1.25rem, 36px);
     font-weight: bold;
     max-width: 250px;
     padding: 1.125em 1.25em;
@@ -73,7 +73,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    padding: 1.5rem 0;
+    padding: clamp(5px, 1.5rem, 50px) 0.125rem;
 
     /* gaps */
     column-gap: 1.875rem;
@@ -131,6 +131,8 @@ h3 {
     background-color: var(--color-light);
     box-shadow: 5px 5px 2.5px var(--color-dogwood);
     margin-bottom: 0.125rem;
+    max-width: 256px;
+    min-width: 100px;
 }
 
 .recipe-section {
