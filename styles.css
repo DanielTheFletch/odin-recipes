@@ -152,3 +152,32 @@ h3 {
     padding-bottom: 0.75rem;
     text-align: center;
 }
+
+
+/* Animations */
+@keyframes index_img {
+    0% { 
+        opacity: 0.0;
+        position: relative;
+        right: 87.5%;
+    }
+
+    100% { 
+        opacity: 1.0;
+        position: relative;
+        right: 0;
+    }
+}
+
+.bottom-image {
+    animation-duration: 1250ms;
+    animation-name: index_img;
+    width: 60%;
+}
+
+.bottom-image-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 2.5rem auto;
+}
