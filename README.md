@@ -3,8 +3,6 @@ Looking to learn how to cook one of Link's favorite meals? Look no further! This
 of in-game recipes from *The Legend of Zelda: Tears of the Kingdom*. Whether it's spicy curry or gloom-curing greens, 
 everyone can get their fill!
 
-Check out the site here: **[@danielthefletch: odin-recipes](danielthefletch.github.io/odin-recipes)**
-
 *\* Features three (3) total recipes*
 
 ## Project Goals
