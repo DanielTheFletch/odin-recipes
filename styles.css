@@ -56,7 +56,7 @@ h3 {
 .index-link {
     background-color: var(--color-mint);
     color: white;
-    font-size: clamp(0.5rem, 1.25rem, 1.75rem);
+    font-size: clamp(0.125rem, 1.25rem, 1.75rem);
     font-weight: bold;
     max-width: 250px;
     padding: 1.125em 1.25em;
@@ -97,9 +97,7 @@ h3 {
 .return-link-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 1.125rem;
-    margin-right: min(15%, 360px);
-    margin-top: 2.75rem;
+    margin: 2.75rem min(15%, 360px) 2.75rem;
 }
 
 
@@ -137,6 +135,7 @@ h3 {
 
 .recipe-section {
     margin-bottom: 2.5rem;
+    margin-left: min(15%, 360px);
     margin-right: min(15%, 360px);
 }
 
